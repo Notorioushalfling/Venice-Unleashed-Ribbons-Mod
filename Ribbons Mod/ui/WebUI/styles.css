@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+#ribbonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ribbon {
+    background-color: #333;
+    border: 2px solid #ffcc00; /* Gold color for ribbons */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    text-align: center;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+}
+
+.ribbon:hover {
+    opacity: 1;
+}
