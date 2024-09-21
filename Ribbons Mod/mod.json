@@ -1,0 +1,18 @@
+{
+  "Name": "BF3 Ribbons",
+  "Description": "Displays ribbons based on player achievements.",
+  "Version": "1.0.0",
+  "Author": "YourName",
+  "HasWebUI": false,
+  "Dependencies": [],
+  "Extension": {
+    "Server": {
+      "Name": "BF3 Ribbons Server",
+      "Path": "ext/server/__init__.lua"
+    },
+    "Client": {
+      "Name": "BF3 Ribbons Client",
+      "Path": "ext/client/__init__.lua"
+    }
+  }
+}
