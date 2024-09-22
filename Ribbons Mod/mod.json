@@ -1,0 +1,12 @@
+{
+  "Name": "BF3 Ribbons",
+  "Description": "Displays ribbons based on player achievements.",
+  "Version": "1.0.0",
+  "Author": "Notorioushalfling",
+  "HasWebUI": true,
+  "HasVeniceEXT": true,
+  "Dependencies": {
+    "veniceext": "^1.0.0"
+  },
+  "Tags": ["ribbons"]
+}
